@@ -1,0 +1,51 @@
+.map {
+  flex-basis: 50vh;
+  width: 100%;
+  margin-top: 30px;
+  @media (max-width: 360px) {
+    margin: 10px;
+  }
+}
+
+.cars-title {
+  margin-top: 30px;
+  text-align: start;
+  color: $clr3;
+}
+
+.cars-list {
+  margin-top: 10px;
+  display: grid;
+  grid-auto-flow: dense;
+  grid-auto-rows: 150px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.car-preview {
+  border: 1px solid;
+  color: $clr2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px 10px;
+
+  .id-title {
+    margin-bottom: 4px;
+    color: $clr4;
+  }
+  .location-title {
+    color: $clr5;
+  }
+  .location-lat {
+    margin: 4px 0;
+  }
+}
+
+.title {
+  font-weight: bold;
+}
+
+.car-id {
+  max-width: 195px;
+}

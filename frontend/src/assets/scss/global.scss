@@ -1,0 +1,14 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/typography.scss";
+
+@import "basics/base.scss";
+
+@import "views/_app.scss";
+
+@import "components/_map.scss";
+
+
+// #root{
+//     min-height: 100vh;
+// }

@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 1250px;
+  margin: 0 auto;
+  @media (max-width: 360px) {
+    margin: 0 5px;
+  }
+  @media (max-width: 414px) {
+    margin: 0 15px;
+  }
+}
