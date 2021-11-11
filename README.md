@@ -1,4 +1,4 @@
-# CARS
+# Cars App
 
 https://cars-map-assign.herokuapp.com/
 
