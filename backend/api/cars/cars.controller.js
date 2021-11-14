@@ -1,7 +1,7 @@
 const carsService = require("./cars.service.js");
 
 async function getCars(req, res) {
-  polygonPath = _buildPolygonPath(req.query);
+  const polygonPath = _buildPolygonPath(req.query);
   const cars = await carsService.query(polygonPath);
   res.send(cars);
 }
